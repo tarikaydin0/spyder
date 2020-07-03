@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2020-07-02 22:48-0500\n"
-"PO-Revision-Date: 2020-07-03 04:46\n"
+"PO-Revision-Date: 2020-07-03 11:37\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -439,7 +439,7 @@ msgstr "Es wurde eine Änderung der Monitorgröße erkannt. <br><br>Wir empfehle
 
 #: spyder/app/mainwindow.py:1453
 msgid "Restart now"
-msgstr ""
+msgstr "Jetzt neu starten"
 
 #: spyder/app/mainwindow.py:1454 spyder/plugins/completion/kite/widgets/install.py:84 spyder/plugins/completion/kite/widgets/install.py:149
 msgid "Dismiss"
@@ -992,7 +992,7 @@ msgstr "Bearbeiten dieses Haltepunkts"
 
 #: spyder/plugins/completion/kite/client.py:116
 msgid "<code>{error}</code><br><br>Note: If you are using a VPN, please don't route requests to localhost/127.0.0.1 with it"
-msgstr ""
+msgstr "<code>{error}</code><br><br>Hinweis: Wenn Sie ein VPN verwenden, routen Sie damit bitte keine Anfragen nach localhost/127.0.0.1"
 
 #: spyder/plugins/completion/kite/plugin.py:152 spyder/plugins/completion/kite/widgets/install.py:329
 msgid "Kite installation error"
@@ -1004,7 +1004,7 @@ msgstr "Nicht wieder anzeigen."
 
 #: spyder/plugins/completion/kite/plugin.py:160
 msgid "It seems that your Kite installation is faulty. If you want to use Kite, please remove the directory that appears bellow, and try a reinstallation:<br><br><code>{kite_dir}</code>"
-msgstr ""
+msgstr "Ihre Kite-Installation scheint fehlerhaft zu sein. Wenn Sie Kite verwenden möchten, entfernen Sie bitte das nachfolgende Verzeichnis, und versuchen Sie eine Neuinstallation:<br><br><code>{kite_dir}</code>"
 
 #: spyder/plugins/completion/kite/utils/install.py:34
 msgid "No status"
