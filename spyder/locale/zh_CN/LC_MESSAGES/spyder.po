@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2020-07-02 22:48-0500\n"
-"PO-Revision-Date: 2020-07-03 04:46\n"
+"PO-Revision-Date: 2020-07-03 05:36\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -428,7 +428,7 @@ msgstr "已连接的控制台窗口（调试）"
 
 #: spyder/app/mainwindow.py:1440
 msgid "Hide this message during the current session"
-msgstr ""
+msgstr "在当前会话期间隐藏此消息"
 
 #: spyder/app/mainwindow.py:1446
 msgid "A monitor scale change was detected. <br><br>We recommend restarting Spyder to ensure that it's properly displayed. If you don't want to do that, please be sure to activate the option<br><br><tt>Enable auto high DPI scaling</tt><br><br>in <tt>Preferences > General > Interface</tt>, in case Spyder is not displayed correctly.<br><br>Do you want to restart Spyder?"
@@ -436,7 +436,7 @@ msgstr "检测到监视器缩放变化。 <br><br>我们建议重新启动Spyder
 
 #: spyder/app/mainwindow.py:1453
 msgid "Restart now"
-msgstr ""
+msgstr "立即重启"
 
 #: spyder/app/mainwindow.py:1454 spyder/plugins/completion/kite/widgets/install.py:84 spyder/plugins/completion/kite/widgets/install.py:149
 msgid "Dismiss"
@@ -988,7 +988,7 @@ msgstr "编辑这个断点"
 
 #: spyder/plugins/completion/kite/client.py:116
 msgid "<code>{error}</code><br><br>Note: If you are using a VPN, please don't route requests to localhost/127.0.0.1 with it"
-msgstr ""
+msgstr "<code>{error}</code><br><br>注意：如果您正在使用 VPN，请不要将路由向 localhost/127.0.0.1 发起的请求"
 
 #: spyder/plugins/completion/kite/plugin.py:152 spyder/plugins/completion/kite/widgets/install.py:329
 msgid "Kite installation error"
@@ -1000,7 +1000,7 @@ msgstr "不再显示。"
 
 #: spyder/plugins/completion/kite/plugin.py:160
 msgid "It seems that your Kite installation is faulty. If you want to use Kite, please remove the directory that appears bellow, and try a reinstallation:<br><br><code>{kite_dir}</code>"
-msgstr ""
+msgstr "您的 Kite 安装似乎有问题。 如果您想要使用 Kite，请移除下面出现的目录。 并尝试重新安装:<br><br><code>{kite_dir}</code>"
 
 #: spyder/plugins/completion/kite/utils/install.py:34
 msgid "No status"
@@ -1534,11 +1534,11 @@ msgstr "您尝试连接到的外部服务器地址与当前Spyder已经启动的
 
 #: spyder/plugins/completion/languageserver/plugin.py:92 spyder/plugins/completion/languageserver/plugin.py:100 spyder/plugins/completion/languageserver/plugin.py:190
 msgid "restarting..."
-msgstr ""
+msgstr "正在重启..."
 
 #: spyder/plugins/completion/languageserver/plugin.py:140 spyder/plugins/completion/languageserver/plugin.py:166
 msgid "ready"
-msgstr ""
+msgstr "就绪"
 
 #: spyder/plugins/completion/languageserver/plugin.py:314
 msgid "It appears there is no {language} language server listening at address:<br><br><tt>{host}:{port}</tt><br><br>Therefore, completion and linting for {language} will not work during this session."
