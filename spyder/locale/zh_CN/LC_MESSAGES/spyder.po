@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2020-07-02 22:48-0500\n"
-"PO-Revision-Date: 2020-07-03 05:46\n"
+"PO-Revision-Date: 2020-07-03 05:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -3866,7 +3866,7 @@ msgstr "没有可用的IPython控制台用于运行 <b>{}</b>.<br><br>请新建�
 
 #: spyder/plugins/ipythonconsole/plugin.py:696
 msgid "Your Python environment or installation doesn't have the <tt>spyder-kernels</tt> module or the right version of it installed (>= 1.9.1 and < 1.10.0). Without this module is not possible for Spyder to create a console for you.<br><br>You can install it by running in a system terminal:<br><br><tt>conda install spyder-kernels</tt><br><br>or<br><br><tt>pip install spyder-kernels</tt>"
-msgstr ""
+msgstr "您的Python环境没有安装<tt>spyder-kernels</tt>模块，或者模块版本不正确 (>=1.9.1 并 <= 1.10.0)。 若没有此模块，则Spyder无法为您创建控制台。<br><br>您可以在终端中输入下面的命令来安装：<br><br><tt>conda install spyder-kernels</tt><br><br>或者<br><br><tt>pip install spyder-kernels</tt>"
 
 #: spyder/plugins/ipythonconsole/plugin.py:1005
 msgid "Do you want to close this console?"
@@ -3908,7 +3908,9 @@ msgstr "无法打开SSH隧道。错误信息为：\n\n"
 msgid "<br><hr>\n"
 "The current file cannot be closed because it is in debug mode. \n"
 "<hr><br>"
-msgstr ""
+msgstr "<br><hr>\n"
+"当前文件无法关闭，因为它处于调试模式。 \n"
+"<hr><br>"
 
 #: spyder/plugins/ipythonconsole/utils/ssh.py:65
 msgid "The authenticity of host <b>%s</b> can't be established. Are you sure you want to continue connecting?"
@@ -3982,7 +3984,7 @@ msgstr "正在连接到 IPython 内核..."
 
 #: spyder/plugins/ipythonconsole/widgets/client.py:838
 msgid "Your Python environment or installation doesn't have the <tt>{missing_dependency}</tt> module installed or it occurred a problem importing it. Due to that, it is not possible for Spyder to create this special console for you."
-msgstr ""
+msgstr "您的 Python 环境或安装没有安装 <tt>{missing_dependency}</tt> 模块，或是导入时出现问题。 由于这个原因，Spyder无法为你创建此特殊控制台。"
 
 #: spyder/plugins/ipythonconsole/widgets/figurebrowser.py:63
 msgid "<br><hr>\n"
@@ -4062,7 +4064,7 @@ msgstr "该变量无法进行pickle序列化"
 
 #: spyder/plugins/ipythonconsole/widgets/namespacebrowser.py:92
 msgid "The kernel is dead"
-msgstr ""
+msgstr "内核已死亡"
 
 #: spyder/plugins/ipythonconsole/widgets/namespacebrowser.py:93
 msgid "%s.<br><br>Note: Please don't report this problem on Github, there's nothing to do about it."
@@ -4078,7 +4080,7 @@ msgstr "正在加载数据"
 
 #: spyder/plugins/ipythonconsole/widgets/namespacebrowser.py:142
 msgid "Spyder is unable to open the file you're trying to load because <tt>{module}</tt> is not installed. Please install this package in your working environment.<br>"
-msgstr ""
+msgstr "Spyder 无法打开您正在加载的文件，因为 <tt>{module}</tt> 尚未安装。 请在您的工作环境中安装此软件包。<br>"
 
 #: spyder/plugins/ipythonconsole/widgets/namespacebrowser.py:149
 msgid "Data is too big to be loaded"
@@ -4116,23 +4118,23 @@ msgstr "在线帮助"
 
 #: spyder/plugins/onlinehelp/pydoc_patch.py:802
 msgid "There was an error while retrieving documentation for the object you requested: Object could not be found"
-msgstr ""
+msgstr "检索您请求的对象文档时出错：对象未找到"
 
 #: spyder/plugins/onlinehelp/pydoc_patch.py:853
 msgid "There was an error while retrieving documentation for the object you requested: Bad URL %s"
-msgstr ""
+msgstr "检索您请求的对象文档时出错：错误的 URL %s"
 
 #: spyder/plugins/onlinehelp/pydoc_patch.py:873
 msgid "There was an error while retrieving documentation for the object you requested: unknown content type %r for url %s"
-msgstr ""
+msgstr "检索您请求的对象文档时出错：未知的内容类型 %r 用于 url %s"
 
 #: spyder/plugins/onlinehelp/widgets.py:118
 msgid "Write a package name here, e.g. pandas"
-msgstr ""
+msgstr "在此处写下一个软件包名，例如 pandas"
 
 #: spyder/plugins/onlinehelp/widgets.py:161
 msgid "Package:"
-msgstr ""
+msgstr "包名:"
 
 #: spyder/plugins/outlineexplorer/api.py:230
 msgid "Unnamed Cell"
@@ -4244,7 +4246,7 @@ msgstr "绘图大小自动适应窗格尺寸。"
 
 #: spyder/plugins/plots/widgets/figurebrowser.py:623
 msgid "The image is broken, please try to generate it again"
-msgstr ""
+msgstr "图像已损坏，请尝试重新生成"
 
 #: spyder/plugins/plots/widgets/figurebrowser.py:1113
 msgid "Copy Image"
@@ -4557,7 +4559,7 @@ msgstr "代码分析"
 
 #: spyder/plugins/pylint/plugin.py:113
 msgid "Run code analysis"
-msgstr ""
+msgstr "运行代码分析"
 
 #: spyder/plugins/pylint/widgets/pylintgui.py:81
 msgid "Results for "
@@ -4747,11 +4749,11 @@ msgstr "打开这个变量可能很慢\n\n"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:126
 msgid "Spyder is unable to show the {val_type} or object you're trying to view because <tt>{module}</tt> was not installed alongside Spyder. Please install this package in your Spyder environment.<br>"
-msgstr ""
+msgstr "Spyder无法显示您试图查看的 {val_type} 或对象，因为 <tt>{module}</tt> 没有与Spyder一起安装。 请在您的 Spyder 环境中安装此软件包。<br>"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:135
 msgid "Spyder is unable to show the variable you're trying to view because the module <tt>{module}</tt> was not found in your  Spyder environment. Please install this package in your Spyder environment.<br>"
-msgstr ""
+msgstr "Spyder 无法显示您正在尝试查看的变量，因为模块 <tt>{module}</tt> 在您的 Spyder 环境中没有找到。 请在您的 Spyder 环境中安装此包。<br>"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:145
 msgid "Spyder was unable to retrieve the value of this variable from the console.<br><br>The error message was:<br>%s"
@@ -6145,7 +6147,7 @@ msgstr "替换/查找 下一个"
 
 #: spyder/widgets/findreplace.py:148
 msgid "Replace in selection"
-msgstr ""
+msgstr "在选区中替换"
 
 #: spyder/widgets/findreplace.py:156
 msgid "Replace all"
@@ -6241,11 +6243,11 @@ msgstr "恢复原来的树状布局"
 
 #: spyder/widgets/onecolumntree.py:66
 msgid "Collapse section"
-msgstr ""
+msgstr "折叠片段"
 
 #: spyder/widgets/onecolumntree.py:72
 msgid "Expand section"
-msgstr ""
+msgstr "展开片段"
 
 #: spyder/widgets/pathmanager.py:113
 msgid "Move to top"
