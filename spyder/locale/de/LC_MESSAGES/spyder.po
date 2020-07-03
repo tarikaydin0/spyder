@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2020-07-02 22:48-0500\n"
-"PO-Revision-Date: 2020-07-03 11:59\n"
+"PO-Revision-Date: 2020-07-03 12:20\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -4770,15 +4770,15 @@ msgstr "Das Öffnen dieser Variable kann langsam sein\n\n"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:126
 msgid "Spyder is unable to show the {val_type} or object you're trying to view because <tt>{module}</tt> was not installed alongside Spyder. Please install this package in your Spyder environment.<br>"
-msgstr "Der Spyder kann den Typ <tt>{val_type}</tt> oder das Objekt, das Sie versuchen anzusehen, nicht anzeigen, weil <tt>{module}</tt> nicht installiert wurde. Bitte installieren Sie dieses Paket in Ihrer Spyder-Umgebung.<br>"
+msgstr "Spyder kann den Typ <tt>{val_type}</tt> oder das Objekt, das Sie versuchen anzusehen, nicht anzeigen, weil <tt>{module}</tt> nicht installiert wurde. Bitte installieren Sie dieses Paket in Ihrer Spyder-Umgebung.<br>"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:135
 msgid "Spyder is unable to show the variable you're trying to view because the module <tt>{module}</tt> was not found in your  Spyder environment. Please install this package in your Spyder environment.<br>"
-msgstr "Der Spyder kann die Variable, die Sie versuchen anzusehen, nicht anzeigen, weil <tt>{module}</tt> nicht in Ihrer Spyder-Umgebung gefunden wurde. Bitte installieren Sie dieses Paket in Ihrer Spyder-Umgebung.<br>"
+msgstr "Spyder kann die Variable, die Sie versuchen anzusehen, nicht anzeigen, weil <tt>{module}</tt> nicht in Ihrer Spyder-Umgebung gefunden wurde. Bitte installieren Sie dieses Paket in Ihrer Spyder-Umgebung.<br>"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:145
 msgid "Spyder was unable to retrieve the value of this variable from the console.<br><br>The error message was:<br>%s"
-msgstr "Spyder konnte den Wert dieser Variablen nicht von der Konsole abrufen.<br><br>Die Fehlermeldung war:<br>%s"
+msgstr "Spyder konnte den Wert dieser Variable nicht von der Konsole abrufen.<br><br>Die Fehlermeldung war:<br>%s"
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:376
 msgid "Edit item"
@@ -4790,7 +4790,7 @@ msgstr "<b>Dem Element können keine Daten zugeordnet werden.</b><br><br>Fehlerm
 
 #: spyder/plugins/variableexplorer/widgets/collectionsdelegate.py:465
 msgid "Spyder was unable to retrieve the value of this variable from the console.<br><br>The error message was:<br><i>%s</i>"
-msgstr "Spyder konnte den Wert dieser Variablen nicht von der Konsole abrufen.<br><br>Die Fehlermeldung war:<br><i>%s</i>"
+msgstr "Spyder konnte den Wert dieser Variable nicht von der Konsole abrufen.<br><br>Die Fehlermeldung war:<br><i>%s</i>"
 
 #: spyder/plugins/variableexplorer/widgets/collectionseditor.py:164 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:853 spyder/plugins/variableexplorer/widgets/dataframeeditor.py:858
 msgid "Index"
