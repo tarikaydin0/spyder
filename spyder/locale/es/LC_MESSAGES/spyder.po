@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2020-07-02 22:48-0500\n"
-"PO-Revision-Date: 2020-07-03 04:46\n"
+"PO-Revision-Date: 2020-07-05 18:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -440,7 +440,7 @@ msgstr "Se detectó un cambio de escala en el monitor. <br><br>Recomendamos rein
 
 #: spyder/app/mainwindow.py:1453
 msgid "Restart now"
-msgstr ""
+msgstr "Reiniciar ahora"
 
 #: spyder/app/mainwindow.py:1454 spyder/plugins/completion/kite/widgets/install.py:84 spyder/plugins/completion/kite/widgets/install.py:149
 msgid "Dismiss"
@@ -1004,7 +1004,7 @@ msgstr "No mostrar de nuevo."
 
 #: spyder/plugins/completion/kite/plugin.py:160
 msgid "It seems that your Kite installation is faulty. If you want to use Kite, please remove the directory that appears bellow, and try a reinstallation:<br><br><code>{kite_dir}</code>"
-msgstr ""
+msgstr "Parece que su instalación de Kite es defectuosa. Si desea utilizar Kite, por favor elimine el directorio que aparece a continuación, y pruebe una reinstalación:<br><br><code>{kite_dir}</code>"
 
 #: spyder/plugins/completion/kite/utils/install.py:34
 msgid "No status"
@@ -2800,7 +2800,7 @@ msgstr "Permisos de archivo"
 
 #: spyder/plugins/editor/widgets/status.py:45
 msgid "File EOL Status"
-msgstr ""
+msgstr "Estado de archivo EOL"
 
 #: spyder/plugins/editor/widgets/status.py:58
 msgid "Encoding"
