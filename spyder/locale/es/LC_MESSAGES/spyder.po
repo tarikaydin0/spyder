@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spyder\n"
 "POT-Creation-Date: 2020-07-02 22:48-0500\n"
-"PO-Revision-Date: 2020-07-05 19:06\n"
+"PO-Revision-Date: 2020-07-05 19:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -4158,7 +4158,7 @@ msgstr "Se presentó un error al recuperar documentación para el objeto que sol
 
 #: spyder/plugins/onlinehelp/pydoc_patch.py:873
 msgid "There was an error while retrieving documentation for the object you requested: unknown content type %r for url %s"
-msgstr ""
+msgstr "Se presentó un error al cargar la documentación para el objeto que solicitó: tipo de contenido desconocido %r para la url %s"
 
 #: spyder/plugins/onlinehelp/widgets.py:118
 msgid "Write a package name here, e.g. pandas"
@@ -4593,7 +4593,7 @@ msgstr "Análisis del código"
 
 #: spyder/plugins/pylint/plugin.py:113
 msgid "Run code analysis"
-msgstr ""
+msgstr "Ejecutar análisis del código"
 
 #: spyder/plugins/pylint/widgets/pylintgui.py:81
 msgid "Results for "
@@ -6193,7 +6193,7 @@ msgstr "Buscar/reemplazar siguiente"
 
 #: spyder/widgets/findreplace.py:148
 msgid "Replace in selection"
-msgstr ""
+msgstr "Reemplazar en selección"
 
 #: spyder/widgets/findreplace.py:156
 msgid "Replace all"
@@ -6289,11 +6289,11 @@ msgstr "Restaurar la disposición original"
 
 #: spyder/widgets/onecolumntree.py:66
 msgid "Collapse section"
-msgstr ""
+msgstr "Colapsar sección"
 
 #: spyder/widgets/onecolumntree.py:72
 msgid "Expand section"
-msgstr ""
+msgstr "Expandir sección"
 
 #: spyder/widgets/pathmanager.py:113
 msgid "Move to top"
